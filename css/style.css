@@ -23,7 +23,12 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+.icon-arrow-square-double-down:before {
+    content: "\f66c";
+}
+.icon-arrow-square-double-up:before {
+    content: "\f66d";
+}
 .icon-arrow-empty-left:before {
     content: "\f659";
 }
