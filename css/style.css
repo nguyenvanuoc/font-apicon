@@ -23,6 +23,18 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.icon-arrow-square-double-left:before {
+    content: "\f66e";
+}
+.icon-arrow-square-double-right:before {
+    content: "\f66f";
+}
+.icon-ic_baseline-navigate-next:before {
+    content: "\f670";
+}
+.icon-ic_baseline-navigate-prev:before {
+    content: "\f671";
+}
 .icon-arrow-square-double-down:before {
     content: "\f66c";
 }
