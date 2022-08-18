@@ -15,9 +15,6 @@
             color: #555;
             background: #fff;
         }
-        *{
-            box-sizing: border-box;
-        }
         h1 {
             font-size: 1.5em;
             font-weight: normal;
@@ -55,18 +52,14 @@
             outline: none;
             box-shadow: inset 0 -2px #449fdb;
         }
-        .icon-wrapper{
-            display: flex;
-            flex-wrap:wrap;
-            justify-content: space-between;
-        }
         .glyph {
             font-size: 16px;
-            width: calc(50% - 1rem);
+            width: 15em;
             padding-bottom: 1em;
+            margin-right: 4em;
             margin-bottom: 1em;
+            float: left;
             overflow: hidden;
-            padding:1rem;
         }
         .liga {
             width: 80%;
@@ -162,7 +155,7 @@
             font-size: 16px;
         }
         .fs1 {
-            font-size:24px;
+            font-size: 32px;
         }
         .fs2 {
             font-size: 32px;
@@ -173,14 +166,24 @@
     <link rel="stylesheet" href="css/style.css"></head>
 <body>
     <div class="bgc1 clearfix">
-        <h1 class="mhmm mvm"><span class="fgc1">Font Name:</span> Ap <small class="fgc1">(Glyphs:&nbsp;4079)</small></h1>
+        <h1 class="mhmm mvm"><span class="fgc1">Font Name:</span> icomoon <small class="fgc1">(Glyphs:&nbsp;4079)</small></h1>
     </div>
-    <div class="using">
-        <code style="padding:10px;background:#f5f5f5;">
-            &lt;span class="-ap icon-close"&gt;&lt;/span&gt;
-        </code>
-    </div>
-    <div class="icon-wrapper">
+    <div class="clearfix mhl ptl">
+        <h1 class="mvm mtn fgc1">Grid Size: Unknown</h1>
+        <div class="glyph fs1">
+            <div class="clearfix bshadow0 pbs">
+                <span class="-ap icon-combo-chart"></span>
+                <span class="mls"> icon-combo-chart</span>
+            </div>
+            <fieldset class="fs0 size1of1 clearfix hidden-false">
+                <input type="text" readonly value="f672" class="unit size1of2" />
+                <input type="text" maxlength="1" readonly value="&#xf672;" class="unitRight size1of2 talign-right" />
+            </fieldset>
+            <div class="fs0 bshadow0 clearfix hidden-true">
+                <span class="unit pvs fgc1">liga: </span>
+                <input type="text" readonly value="" class="liga unitRight" />
+            </div>
+        </div>
         <div class="glyph fs1">
             <div class="clearfix bshadow0 pbs">
                 <span class="-ap icon-arrow-square-double-left"></span>
@@ -197,7 +200,7 @@
         </div>
         <div class="glyph fs1">
             <div class="clearfix bshadow0 pbs">
-                <span class="-ap  icon-arrow-square-double-right"></span>
+                <span class="-ap icon-arrow-square-double-right"></span>
                 <span class="mls"> icon-arrow-square-double-right</span>
             </div>
             <fieldset class="fs0 size1of1 clearfix hidden-false">
@@ -211,8 +214,8 @@
         </div>
         <div class="glyph fs1">
             <div class="clearfix bshadow0 pbs">
-                <span class="-ap icon-ic_baseline-navigate-next"></span>
-                <span class="mls"> icon-ic_baseline-navigate-next</span>
+                <span class="-ap icon_baseline-navigate-next"></span>
+                <span class="mls"> icon_baseline-navigate-next</span>
             </div>
             <fieldset class="fs0 size1of1 clearfix hidden-false">
                 <input type="text" readonly value="f670" class="unit size1of2" />
@@ -225,8 +228,8 @@
         </div>
         <div class="glyph fs1">
             <div class="clearfix bshadow0 pbs">
-                <span class="-ap icon-ic_baseline-navigate-prev"></span>
-                <span class="mls"> icon-ic_baseline-navigate-prev</span>
+                <span class="-ap icon_baseline-navigate-prev"></span>
+                <span class="mls"> icon_baseline-navigate-prev</span>
             </div>
             <fieldset class="fs0 size1of1 clearfix hidden-false">
                 <input type="text" readonly value="f671" class="unit size1of2" />
@@ -57358,7 +57361,5 @@
             </div>
         </div>
     </div>
-   
-
 </body>
 </html>

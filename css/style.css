@@ -1,17 +1,17 @@
 @font-face {
-  font-family: 'ap';
-  src:  url('../fonts/ap.eot?lpge4a');
-  src:  url('../fonts/ap.eot?lpge4a#iefix') format('embedded-opentype'),
-    url('../fonts/ap.ttf?lpge4a') format('truetype'),
-    url('../fonts/ap.woff?lpge4a') format('woff'),
-    url('../fonts/ap.svg?lpge4a#ap') format('svg');
+  font-family: "ap";
+  src: url("../fonts/ap.eot?lpge4a");
+  src: url("../fonts/ap.eot?lpge4a#iefix") format("embedded-opentype"),
+    url("../fonts/ap.ttf?lpge4a") format("truetype"),
+    url("../fonts/ap.woff?lpge4a") format("woff"),
+    url("../fonts/ap.svg?lpge4a#ap") format("svg");
   font-weight: normal;
   font-style: normal;
 }
 
 .-ap {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'ap' !important;
+  font-family: "ap" !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -23,129 +23,132 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+.icon-combo-chart:before {
+  content: "\f672";
+}
 .icon-arrow-square-double-left:before {
-    content: "\f66e";
+  content: "\f66e";
 }
 .icon-arrow-square-double-right:before {
-    content: "\f66f";
+  content: "\f66f";
 }
-.icon-ic_baseline-navigate-next:before {
-    content: "\f670";
+.icon_baseline-navigate-next:before {
+  content: "\f670";
 }
-.icon-ic_baseline-navigate-prev:before {
-    content: "\f671";
+.icon_baseline-navigate-prev:before {
+  content: "\f671";
 }
 .icon-arrow-square-double-down:before {
-    content: "\f66c";
+  content: "\f66c";
 }
 .icon-arrow-square-double-up:before {
-    content: "\f66d";
+  content: "\f66d";
 }
 .icon-arrow-empty-left:before {
-    content: "\f659";
+  content: "\f659";
 }
 .icon-arrow-empty-right:before {
-    content: "\f65a";
+  content: "\f65a";
 }
 .icon-bar-chart:before {
-    content: "\f65b";
+  content: "\f65b";
 }
 .icon-business-chart:before {
-    content: "\f65c";
+  content: "\f65c";
 }
 .icon-business-financial-chart:before {
-    content: "\f65d";
+  content: "\f65d";
 }
 .icon-candlestick:before {
-    content: "\f65e";
+  content: "\f65e";
 }
 .icon-chart-column-stacked:before {
-    content: "\f65f";
+  content: "\f65f";
 }
 .icon-female:before {
-    content: "\f660";
+  content: "\f660";
 }
 .icon-male:before {
-    content: "\f661";
+  content: "\f661";
 }
 .icon-pie-chart:before {
-    content: "\f662";
+  content: "\f662";
 }
 .icon-pie-chart1:before {
-    content: "\f663";
+  content: "\f663";
 }
 .icon-pyramid:before {
-    content: "\f664";
+  content: "\f664";
 }
 .icon-radar-chart-with-pentagon:before {
-    content: "\f665";
+  content: "\f665";
 }
 .icon-Text-Bold:before {
-    content: "\f666";
+  content: "\f666";
 }
 .icon-Text-Italic:before {
-    content: "\f667";
+  content: "\f667";
 }
 .icon-total:before {
-    content: "\f668";
+  content: "\f668";
 }
 .icon-Treemap:before {
-    content: "\f669";
+  content: "\f669";
 }
 .icon-underline:before {
-    content: "\f66a";
+  content: "\f66a";
 }
 .icon-vertical-bars:before {
-    content: "\f66b";
+  content: "\f66b";
 }
-
 .icon-file-csv:before {
-    content: "\f656";
+  content: "\f656";
 }
 .icon-file-xlsx:before {
-    content: "\f657";
+  content: "\f657";
 }
 .icon-file-xml:before {
-    content: "\f658";
+  content: "\f658";
 }
 .icon_fluent_access_time_24_filled:before {
-    content: "\e991";
+  content: "\e991";
 }
 .icon_fluent_access_time_24_regular:before {
-    content: "\e992";
+  content: "\e992";
 }
 .icon_fluent_accessibility_24_filled:before {
-    content: "\e993";
+  content: "\e993";
 }
 .icon_fluent_accessibility_24_regular:before {
-    content: "\e994";
+  content: "\e994";
 }
 .icon_fluent_accessibility_checkmark_24_filled:before {
-    content: "\e995";
+  content: "\e995";
 }
 .icon_fluent_accessibility_checkmark_24_regular:before {
-    content: "\e996";
+  content: "\e996";
 }
 .icon_fluent_add_24_filled:before {
-    content: "\e9b1";
+  content: "\e9b1";
 }
 .icon_fluent_add_24_regular:before {
-    content: "\e9c4";
+  content: "\e9c4";
 }
 .icon_fluent_add_circle_24_filled:before {
-    content: "\ea1e";
+  content: "\ea1e";
 }
 .icon_fluent_add_circle_24_regular:before {
-    content: "\ea30";
+  content: "\ea30";
 }
 .icon_fluent_add_square_24_filled:before {
-    content: "\ea31";
+  content: "\ea31";
 }
 .icon_fluent_add_square_24_regular:before {
-    content: "\ea32";
+  content: "\ea32";
 }
 .icon_fluent_add_subtract_circle_24_filled:before {
-    content: "\ea33";
+  content: "\ea33";
 }
 .icon_fluent_add_subtract_circle_24_regular:before {
   content: "\ea34";
@@ -9108,7 +9111,7 @@
 .icon-eye-outline:before {
   content: "\e985";
 }
-.icon-file-text3:before {
+.icon-file-text:before {
   content: "\e990";
 }
 .icon-car:before {
@@ -10530,7 +10533,7 @@
 .icon-play:before {
   content: "\e841";
 }
-.icon-pie-chart:before {
+.icon-pie-chart3:before {
   content: "\e842";
 }
 .icon-chart-bars:before {
@@ -12279,4 +12282,3 @@
 .icon-tv:before {
   content: "\ea8b";
 }
-
