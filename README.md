@@ -10,7 +10,8 @@ Download font from github
 **Steps 2:**
 * Copy folder **fonts, css** to folder **assets** your project 
 * Import style in html 
-> &lt;link rel="stylesheet" type="text/css" href="../assets/ap8/css/style.css"&gt;
+> &lt;link rel="stylesheet" type="text/css" href="../assets/ap8/css/style.css"/&gt;
+
 **Steps 3:**
 Using code 
 > &lt;i class="-ap icon-download"&gt;&lt;/i&gt;
