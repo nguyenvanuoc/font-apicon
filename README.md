@@ -1,5 +1,5 @@
 ## Example  
-> &lt;i class="-ap icon-download"&gt;&lt;/i&lt;
+> &lt;i class="-ap icon-download"&gt;&lt;/i&gt;
 
 ## Intro using
 
@@ -10,7 +10,7 @@ Download font from github
 **Steps 2:**
 * Copy folder **fonts, css** to folder **assets** your project 
 * Import style in html 
-> <link rel="stylesheet" type="text/css" href="../assets/ap8/css/style.css">
+> &lt;link rel="stylesheet" type="text/css" href="../assets/ap8/css/style.css"&gt;
 **Steps 3:**
 Using code 
-> <i class="-ap icon-download"></i>
+> &lt;i class="-ap icon-download"&gt;&lt;/i&gt;
