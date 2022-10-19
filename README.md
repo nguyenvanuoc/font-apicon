@@ -1,5 +1,5 @@
 ## Example  
-> <i class="-ap icon-download"></i>
+> &lt;i class="-ap icon-download"&gt;&lt;/i&t;
 
 ## Intro using
 
