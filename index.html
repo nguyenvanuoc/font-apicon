@@ -47,18 +47,21 @@
             line-height: 1.5;
             height: 1.5em;
             padding: .25em 0;
+            font-family: "ap";
         }
         input:focus {
             outline: none;
             box-shadow: inset 0 -2px #449fdb;
         }
+        .ptl{
+            display: flex;
+            column-gap: 40px;
+            row-gap: 40px;
+            flex-wrap: wrap;
+        }
         .glyph {
             font-size: 16px;
-            width: 15em;
-            padding-bottom: 1em;
-            margin-right: 4em;
-            margin-bottom: 1em;
-            float: left;
+            width: calc(50% - 22px);
             overflow: hidden;
         }
         .liga {
@@ -168,8 +171,7 @@
     <div class="bgc1 clearfix">
         <h1 class="mhmm mvm"><span class="fgc1">Font Name:</span> icomoon <small class="fgc1">(Glyphs:&nbsp;4079)</small></h1>
     </div>
-    <div class="clearfix mhl ptl">
-        <h1 class="mvm mtn fgc1">Grid Size: Unknown</h1>
+    <div class="mhl ptl">
         <div class="glyph fs1">
             <div class="clearfix bshadow0 pbs">
                 <span class="-ap icon-combo-chart"></span>
