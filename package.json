@@ -1,0 +1,19 @@
+{
+  "name": "ap8icon",
+  "version": "1.0.1",
+  "description": "Develop by UocNV",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nguyenvanuoc/font-apicon.git"
+  },
+  "author": "Uoc NV <vanuoc.haui@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nguyenvanuoc/font-apicon/issues"
+  },
+  "homepage": "https://github.com/nguyenvanuoc/font-apicon#readme"
+}
