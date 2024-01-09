@@ -24,6 +24,27 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-add-document:before {
+  content: "\f836";
+}
+.icon-copy:before {
+  content: "\f837";
+}
+.icon-data-transfer:before {
+  content: "\f838";
+}
+.icon-database-table:before {
+  content: "\f839";
+}
+.icon-edit-table:before {
+  content: "\f83a";
+}
+.icon-recycle-bin:before {
+  content: "\f83b";
+}
+.icon-upload1:before {
+  content: "\f83c";
+}
 .icon-catalog-1:before {
   content: "\eabd";
 }
